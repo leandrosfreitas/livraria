@@ -1,4 +1,4 @@
-from livraria.autor import Autor
+from autor import Autor
 
 class Livro():
     livros = []

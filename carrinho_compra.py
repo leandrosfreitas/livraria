@@ -15,4 +15,3 @@ class CarrinhoCompra:
 
     def calcular_total(self):
         return sum(item['livro'].preco * item['quantidade'] for item in self.itens)
-
