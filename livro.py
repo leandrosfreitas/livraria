@@ -1,6 +1,6 @@
 from autor import Autor
 
-class Livro():
+class Livro:
     livros = []
     def __init__(self, isbn, titulo, descricao, preco, data_publicacao, estoque, autor: Autor):
         self.isbn = isbn

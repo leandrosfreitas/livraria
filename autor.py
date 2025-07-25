@@ -1,4 +1,4 @@
-class Autor():
+class Autor:
     autores = []
 
     def __init__(self, nome, biografia):

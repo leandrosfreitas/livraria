@@ -1,6 +1,6 @@
 import re
 
-class Cliente():
+class Cliente:
     def __init__(self, nome, email, senha, endereco):
         self.nome = nome
         self.email = email
